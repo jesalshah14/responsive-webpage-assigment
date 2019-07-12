@@ -46,6 +46,6 @@ Thsi section show About us information regarding the site.
 *  Bootstrap Component Used : Jumbotron + Collapse 
 
 ### Footer
-Footer with social links and Copyright.
+Footer with Social links and Copyright.
 
-* Font Aswome css used.
+* Font Aswome css used..
