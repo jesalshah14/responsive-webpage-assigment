@@ -1,0 +1,245 @@
+
+/* Body css */
+body
+{
+        margin:0;
+}
+
+/* Header css */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding : 0px 25px;
+    background-color:#4d4d4d;
+    color:white;
+    align-items: center;
+}
+header h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size:25px;
+        width :60px;
+        word-break:normal;;
+}
+header ul li{
+    display: inline;
+    padding :3px; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    cursor:pointer;
+    font-weight: 200;
+    color: #fff;
+}
+.v-divider{
+        width:3vw;
+        height:1.5vh;
+        border-left:1px solid white;
+        padding :5px;
+}
+.company-logo1 {
+        position: absolute;
+        left: 0;
+        height: 35px;
+}
+.company-logo1 img{
+        height: 100%;
+        position: relative;
+        width: 5em;
+        top: 51px;
+        z-index: 9999999;
+        left: 1px;
+}
+/* img to disable on medium & small device */
+@media (max-width: 992px) {
+   .company-logo1 img{
+         display: none;
+    }
+}
+
+/* Nav bar CSS */
+.navbar-nav{
+        margin-left: 4vw !important;
+}
+.navbar{
+        padding:0px !important;
+}
+.bg-dark{
+        background-color: black !important;
+}
+.nav-link{
+        color:white!important;   
+        font-family: 'PT Sans Narrow', sans-serif;
+        letter-spacing: .2px;
+        font-size:12.2px;
+        display: flex;
+        align-items: center;
+}
+.nav-item.active a.nav-link{
+        color:white !important;
+}
+.nav-item a.nav-link:hover{
+        color:orange !important;
+}
+
+/* Product css */
+.product-section img{
+        height:90%;
+}
+.product-section{
+        padding:15px;
+}
+.product-title
+{ 
+        font-family: Josefin Sans, sans-serif;
+        font-weight: 600;
+        font-size: 1.5em;
+        color: rgb(158, 111, 27);
+        text-transform: uppercase;
+        font-weight: bolder;
+}
+
+.product-section-1
+{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px 0px;
+        padding :0px 0px;
+}
+.product-section-1 h4
+{
+        font-family: 'Lato', sans-serif;
+}
+
+/* paper layout customer -section css */
+.customer-love{
+        color: #ff931e;
+        font-family: SharpSans;
+        font-weight: 600;
+}
+
+.customer-love-1{
+        font-family: 'Amatic SC', cursive !important;
+        font-size: 15.4px;
+        color: grey;
+        font-weight: 200;
+}
+.paper-new
+{
+        border:1px solid #eee;
+        border-radius :10px;
+        padding :10px 20px;
+        box-shadow: 5px 5px 20px 5px cadetblue;
+}
+.paper-new h4{
+        font-family: 'Lato', sans-serif;
+}
+.paper-new p{
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 14px;
+        line-height:1.5;
+        color: #474747;
+        padding: 10px 0;
+}
+.mb-15{
+        margin-bottom: 15px !important;
+}
+
+/* Jumbotran About us css */
+.sub-jumbotran{
+        margin:auto;
+}
+.header-aboutus{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 550;
+        font-size: 19px;
+        color: #00a99d;
+        padding: 0;
+        line-height: 18px;
+        text-transform: uppercase;
+}
+.description {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        color: #666;
+        line-height: 21px;
+        margin: 0;
+}
+#read-more
+{
+        color: #ff931e;
+        text-decoration:underline;
+        cursor: pointer;
+}
+.heading-collapse
+{
+        font-family: Josefin Sans, sans-serif;
+        font-size: 18px;
+        margin: 0;
+        color: #333;
+        padding-bottom: 5px;
+        text-align: center;
+}
+#collapseExample{
+        margin: 0 auto;
+        max-width: 900px;
+}
+
+/* other section css */
+.items{
+        margin:auto;
+        background-color:#4d4d4d;
+}
+.items li{
+        font-family: Josefin Sans, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: #fff;
+        display: contents;
+
+}
+
+/* Footer section css */
+.footer-section{
+        padding-top:50px;
+        text-align: center;
+        background-color:black ;
+        color: white;
+}
+.social-links{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        text-align: center;
+        color:white;
+}
+footer i {
+        font-size:2.4em;
+        color:lightgreen;
+        margin:4px;
+}
+.footer-section ul li{
+        list-style: none; /* Remove list bullets */
+}
+.company-logo {
+        position: absolute;
+        left: 0;
+        height: 35px;
+
+}
+.company-logo img{
+        height: 100%;
+        position: relative;
+        width: auto;
+        top: -9px;
+        left: 2px;
+}
+.footer-copyright{
+        background-color: black;
+}
+.copyright-h6{
+        color: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 10px !important;
+        font-stretch: expanded;
+}
